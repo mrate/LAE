@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9FC02DE4-AA2A-4281-BC0E-C251BC93061A}</ProjectGuid>
+    <RootNamespace>LAE_Core</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\libs\glut-3.7.6-bin;c:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;C:\Program Files (x86)\Lua\5.1\include;..\..\libs\boost_1_54_0;..\..\libs\tinyxml;..\..\libs\zlib\include;..\..\libs\luabind-0.9.1;..\..\libs\libpng\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Lib>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>..\libs;..\..\libs\zlib\lib;..\..\libs\libpng\lib;..\..\libs\boost_1_54_0\stage\lib;c:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;C:\Program Files (x86)\Lua\5.1\lib;..\..\libs\glut-3.7.6-bin;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>luabind_d.lib;lua5.1.lib;fmodex_vc.lib;zdll.lib;psapi.lib;libpng.lib;glut32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\libs\glut-3.7.6-bin;c:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;C:\Program Files (x86)\Lua\5.1\include;..\..\libs\boost_1_54_0;..\..\libs\tinyxml;..\..\libs\zlib\include;..\..\libs\luabind-0.9.1;..\..\libs\libpng\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>..\libs;..\..\libs\zlib\lib;..\..\libs\libpng\lib;..\..\libs\boost_1_54_0\stage\lib;c:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;C:\Program Files (x86)\Lua\5.1\lib;..\..\libs\glut-3.7.6-bin;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>luabind.lib;lua5.1.lib;fmodex_vc.lib;zdll.lib;psapi.lib;libpng.lib;glut32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="audio\PSound.h" />
+    <ClInclude Include="audio\SoundChannel.h" />
+    <ClInclude Include="cache\AnimationCache.h" />
+    <ClInclude Include="cache\Cache.h" />
+    <ClInclude Include="cache\CacheableObject.h" />
+    <ClInclude Include="cache\CacheManager.h" />
+    <ClInclude Include="cache\ImageCache.h" />
+    <ClInclude Include="cache\SoundCache.h" />
+    <ClInclude Include="cache\TextStorage.h" />
+    <ClInclude Include="exception\Exception.h" />
+    <ClInclude Include="game\GameEngine.h" />
+    <ClInclude Include="game\GameState.h" />
+    <ClInclude Include="game\GameTimer.h" />
+    <ClInclude Include="game\Global.h" />
+    <ClInclude Include="graphics\AnimatedSprite.h" />
+    <ClInclude Include="graphics\Animation.h" />
+    <ClInclude Include="graphics\AnimationPlayer.h" />
+    <ClInclude Include="graphics\Color.h" />
+    <ClInclude Include="graphics\Font.h" />
+    <ClInclude Include="graphics\graphics.h" />
+    <ClInclude Include="graphics\Image.h" />
+    <ClInclude Include="graphics\PAnimation.h" />
+    <ClInclude Include="graphics\PImage.h" />
+    <ClInclude Include="graphics\Renderable.h" />
+    <ClInclude Include="graphics\Screen.h" />
+    <ClInclude Include="audio\MediaPlayer.h" />
+    <ClInclude Include="audio\Sound.h" />
+    <ClInclude Include="graphics\TextPanel.h" />
+    <ClInclude Include="logger\Logger.h" />
+    <ClInclude Include="logger\OStreamContext.h" />
+    <ClInclude Include="lua\lua.h" />
+    <ClInclude Include="lua\LuaRegistrator.h" />
+    <ClInclude Include="math\Rectangle.h" />
+    <ClInclude Include="objects\Actor.h" />
+    <ClInclude Include="objects\Camera.h" />
+    <ClInclude Include="objects\InventoryItem.h" />
+    <ClInclude Include="objects\Item.h" />
+    <ClInclude Include="screens\Events.h" />
+    <ClInclude Include="screens\GameManager.h" />
+    <ClInclude Include="screens\GameRoom.h" />
+    <ClInclude Include="screens\GameScreen.h" />
+    <ClInclude Include="screens\RoomPlayer.h" />
+    <ClInclude Include="screens\ScriptPlayer.h" />
+    <ClInclude Include="..\..\libs\tinyxml\tinystr.h" />
+    <ClInclude Include="..\..\libs\tinyxml\tinyxml.h" />
+    <ClInclude Include="math\common.h" />
+    <ClInclude Include="math\MathUtils.h" />
+    <ClInclude Include="math\point.h" />
+    <ClInclude Include="math\vector.h" />
+    <ClInclude Include="script\ScriptInterpret.h" />
+    <ClInclude Include="types\Box.h" />
+    <ClInclude Include="types\GamePosition.h" />
+    <ClInclude Include="types\InventoryItem.h" />
+    <ClInclude Include="types\KeyboardState.h" />
+    <ClInclude Include="types\MouseState.h" />
+    <ClInclude Include="types\Scale.h" />
+    <ClInclude Include="types\SharedArrays.h" />
+    <ClInclude Include="types\Sprite.h" />
+    <ClInclude Include="types\types.h" />
+    <ClInclude Include="utils\utils.h" />
+    <ClInclude Include="xml\Xml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cache\AnimationCache.cpp" />
+    <ClCompile Include="cache\CacheManager.cpp" />
+    <ClCompile Include="cache\ImageCache.cpp" />
+    <ClCompile Include="cache\SoundCache.cpp" />
+    <ClCompile Include="cache\TextStorage.cpp" />
+    <ClCompile Include="game\GameEngine.cpp" />
+    <ClCompile Include="game\GameState.cpp" />
+    <ClCompile Include="game\GameTimer.cpp" />
+    <ClCompile Include="game\Global.cpp" />
+    <ClCompile Include="graphics\AnimatedSprite.cpp" />
+    <ClCompile Include="graphics\Animation.cpp" />
+    <ClCompile Include="graphics\AnimationPlayer.cpp" />
+    <ClCompile Include="graphics\Font.cpp" />
+    <ClCompile Include="audio\MediaPlayer.cpp" />
+    <ClCompile Include="audio\Sound.cpp" />
+    <ClCompile Include="graphics\Image.cpp" />
+    <ClCompile Include="graphics\Screen.cpp" />
+    <ClCompile Include="graphics\TextPanel.cpp" />
+    <ClCompile Include="logger\Logger.cpp" />
+    <ClCompile Include="logger\OStreamContext.cpp" />
+    <ClCompile Include="lua\LuaRegistrator.cpp" />
+    <ClCompile Include="objects\Actor.cpp" />
+    <ClCompile Include="objects\Camera.cpp" />
+    <ClCompile Include="objects\InventoryItem.cpp" />
+    <ClCompile Include="objects\Item.cpp" />
+    <ClCompile Include="runtime\main.cpp" />
+    <ClCompile Include="screens\GameManager.cpp" />
+    <ClCompile Include="screens\GameRoom.cpp" />
+    <ClCompile Include="screens\RoomPlayer.cpp" />
+    <ClCompile Include="screens\ScriptPlayer.cpp" />
+    <ClCompile Include="..\..\libs\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\..\libs\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\..\libs\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\libs\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="math\MathUtils.cpp" />
+    <ClCompile Include="math\point.cpp" />
+    <ClCompile Include="math\vector.cpp" />
+    <ClCompile Include="script\ScriptInterpret.cpp" />
+    <ClCompile Include="utils\utils.cpp" />
+    <ClCompile Include="xml\Xml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LAE_FileSystem\LAE_FileSystem.vcxproj">
+      <Project>{ef31a45d-75a6-431e-aa5a-ae384d048bcc}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

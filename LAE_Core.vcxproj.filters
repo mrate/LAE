@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cache">
+      <UniqueIdentifier>{e0de70c4-5f37-40d7-88d4-e9e8b527697d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{c90a689e-55f3-425e-90a8-f30b117417ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{44749f70-c9ba-45e0-9cac-d02dd35cf484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{028514b0-822d-4dc5-9cf4-ba097149b862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screens">
+      <UniqueIdentifier>{4ead0c3b-07d9-4c35-8095-2d4e4cef9a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{d71b1275-7529-40e6-b0db-64ed1218db82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_tinyxml">
+      <UniqueIdentifier>{e9938042-c8fa-4f57-a297-0612474b0e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{2537d8d5-b954-486e-9189-43033a70a096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="types">
+      <UniqueIdentifier>{cec53846-ea24-42ae-8f72-ebeabd8702f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{c393d47b-a3c8-4755-a206-b88b2dd7c0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{af99ceba-4593-4411-a655-3167f7162a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{9676c0ce-77c4-4343-ae9e-a77627079af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logger">
+      <UniqueIdentifier>{59f907fc-ea3b-4dec-8762-42ac8e7ed0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{4c15e29f-41bc-449b-84cf-0aa4c81c3aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exception">
+      <UniqueIdentifier>{12d7e915-8023-41b5-bd5f-9241035c0b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime">
+      <UniqueIdentifier>{ac58562d-d5d0-40cb-ac61-dfe4525f9d65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cache\AnimationCache.h">
+      <Filter>cache</Filter>
+    </ClInclude>
+    <ClInclude Include="cache\Cache.h">
+      <Filter>cache</Filter>
+    </ClInclude>
+    <ClInclude Include="cache\CacheableObject.h">
+      <Filter>cache</Filter>
+    </ClInclude>
+    <ClInclude Include="cache\ImageCache.h">
+      <Filter>cache</Filter>
+    </ClInclude>
+    <ClInclude Include="cache\SoundCache.h">
+      <Filter>cache</Filter>
+    </ClInclude>
+    <ClInclude Include="cache\TextStorage.h">
+      <Filter>cache</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\AnimatedSprite.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Animation.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Font.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\graphics.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Image.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Screen.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\MediaPlayer.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\Sound.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\Actor.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\Camera.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\InventoryItem.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\Item.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="screens\Events.h">
+      <Filter>screens</Filter>
+    </ClInclude>
+    <ClInclude Include="screens\GameManager.h">
+      <Filter>screens</Filter>
+    </ClInclude>
+    <ClInclude Include="screens\GameRoom.h">
+      <Filter>screens</Filter>
+    </ClInclude>
+    <ClInclude Include="screens\GameScreen.h">
+      <Filter>screens</Filter>
+    </ClInclude>
+    <ClInclude Include="screens\RoomPlayer.h">
+      <Filter>screens</Filter>
+    </ClInclude>
+    <ClInclude Include="screens\ScriptPlayer.h">
+      <Filter>screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\tinyxml\tinystr.h">
+      <Filter>_tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\tinyxml\tinyxml.h">
+      <Filter>_tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="math\common.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\MathUtils.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\point.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="types\MouseState.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\KeyboardState.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\Sprite.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\SharedArrays.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\Box.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\Scale.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\GamePosition.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\InventoryItem.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\Xml.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\SoundChannel.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\LuaRegistrator.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="game\GameState.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\AnimationPlayer.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Rectangle.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="game\GameEngine.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\GameTimer.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="cache\CacheManager.h">
+      <Filter>cache</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\PSound.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\PImage.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\PAnimation.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Renderable.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="logger\Logger.h">
+      <Filter>logger</Filter>
+    </ClInclude>
+    <ClInclude Include="logger\OStreamContext.h">
+      <Filter>logger</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Global.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="types\types.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="script\ScriptInterpret.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Color.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\TextPanel.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="exception\Exception.h">
+      <Filter>exception</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cache\TextStorage.cpp">
+      <Filter>cache</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\AnimatedSprite.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Animation.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Font.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\MediaPlayer.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\Sound.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\Actor.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\Camera.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\InventoryItem.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\Item.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="screens\GameManager.cpp">
+      <Filter>screens</Filter>
+    </ClCompile>
+    <ClCompile Include="screens\GameRoom.cpp">
+      <Filter>screens</Filter>
+    </ClCompile>
+    <ClCompile Include="screens\RoomPlayer.cpp">
+      <Filter>screens</Filter>
+    </ClCompile>
+    <ClCompile Include="screens\ScriptPlayer.cpp">
+      <Filter>screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libs\tinyxml\tinystr.cpp">
+      <Filter>_tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libs\tinyxml\tinyxml.cpp">
+      <Filter>_tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libs\tinyxml\tinyxmlerror.cpp">
+      <Filter>_tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libs\tinyxml\tinyxmlparser.cpp">
+      <Filter>_tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="math\MathUtils.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\point.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\vector.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\Xml.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\LuaRegistrator.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="game\GameState.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\AnimationPlayer.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\GameEngine.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\GameTimer.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="cache\CacheManager.cpp">
+      <Filter>cache</Filter>
+    </ClCompile>
+    <ClCompile Include="cache\AnimationCache.cpp">
+      <Filter>cache</Filter>
+    </ClCompile>
+    <ClCompile Include="cache\ImageCache.cpp">
+      <Filter>cache</Filter>
+    </ClCompile>
+    <ClCompile Include="cache\SoundCache.cpp">
+      <Filter>cache</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Image.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Screen.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="logger\Logger.cpp">
+      <Filter>logger</Filter>
+    </ClCompile>
+    <ClCompile Include="logger\OStreamContext.cpp">
+      <Filter>logger</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Global.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="script\ScriptInterpret.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\TextPanel.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\main.cpp">
+      <Filter>runtime</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
