@@ -29,7 +29,8 @@ Projects has following dependencies (Ubuntu package name is in parenthesis at ea
 * gcc (gcc-4.9-multilib g++-4.9-multilib)
 * boost 1.54 (libboost-all-dev)
 * libpng (libpng12-dev)
-* liblua5.1 liblua5.2 (TODO:)
+* zlib (zlib1g-dev)
+* liblua5.2 (liblua5.2-dev)
 * freeglut3 (freeglut3-dev)
 * fmod ex 4.44.46
 * libluabind-dev (libluabind-dev)
