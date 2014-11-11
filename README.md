@@ -24,6 +24,7 @@ make
 ### Prerequisites ###
 
 Projects has following dependencies (Ubuntu package name is in parenthesis at each library):
+
 * CMake (cmake)
 * gcc (gcc-4.9-multilib g++-4.9-multilib)
 * boost 1.54 (libboost-all-dev)
