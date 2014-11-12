@@ -32,6 +32,6 @@ Projects has following dependencies (Ubuntu package name is in parenthesis at ea
 * zlib 1.2 (zlib1g-dev)
 * liblua5.2 (liblua5.2-dev)
 * freeglut3 2.8.1 (freeglut3-dev)
-* fmod ex 4.44.46
 * libluabind-dev 0.9.1 (libluabind-dev)
 * tinyxml 2.6.2 (libtinyxml-dev)
+* fmod ex 4.44.46 (http://www.fmod.org/download/fmodex/api/Linux/fmodapi44446linux.tar.gz)
