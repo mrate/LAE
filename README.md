@@ -25,13 +25,13 @@ make
 
 Projects has following dependencies (Ubuntu package name is in parenthesis at each library):
 
-* CMake (cmake)
-* gcc (gcc-4.9-multilib g++-4.9-multilib)
+* CMake 2.8 (cmake)
+* gcc 4.9 (gcc-4.9-multilib g++-4.9-multilib)
 * boost 1.54 (libboost-all-dev)
-* libpng (libpng12-dev)
-* zlib (zlib1g-dev)
+* libpng 1.2 (libpng12-dev)
+* zlib 1.2 (zlib1g-dev)
 * liblua5.2 (liblua5.2-dev)
-* freeglut3 (freeglut3-dev)
+* freeglut3 2.8.1 (freeglut3-dev)
 * fmod ex 4.44.46
-* libluabind-dev (libluabind-dev)
-* tinyxml (libtinyxml-dev)
+* libluabind-dev 0.9.1 (libluabind-dev)
+* tinyxml 2.6.2 (libtinyxml-dev)
