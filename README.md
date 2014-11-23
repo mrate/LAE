@@ -34,4 +34,9 @@ Projects has following dependencies (Ubuntu package name is in parenthesis at ea
 * freeglut3 2.8.1 (freeglut3-dev)
 * libluabind-dev 0.9.1 (libluabind-dev)
 * tinyxml 2.6.2 (libtinyxml-dev)
-* fmod ex 4.44.46 (http://www.fmod.org/download/fmodex/api/Linux/fmodapi44446linux.tar.gz)
+* OpenAL 1.15.1 (libopenal-dev)
+* alut 1.1.0 (libalut-dev)
+* vorbis 1.3.2 (libvorbis-dev)
+* vorbisfile 1.3.2 (libvorbisfile3)
+
+* ~~fmod ex 4.44.46 (http://www.fmod.org/download/fmodex/api/Linux/fmodapi44446linux.tar.gz)~~
