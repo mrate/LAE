@@ -38,5 +38,6 @@ Projects has following dependencies (Ubuntu package name is in parenthesis at ea
 * alut 1.1.0 (libalut-dev)
 * vorbis 1.3.2 (libvorbis-dev)
 * vorbisfile 1.3.2 (libvorbisfile3)
+* SCML-pp 1-17-13 (For Spriter animations support - https://code.google.com/p/scml-pp/)
 
 * ~~fmod ex 4.44.46 (http://www.fmod.org/download/fmodex/api/Linux/fmodapi44446linux.tar.gz)~~
